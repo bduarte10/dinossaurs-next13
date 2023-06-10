@@ -15,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} text-center ` }>
+        <h1 className="text-2xl font-bold pt-4">Dinossaurs Facts</h1>
+        {children}
+        </body>
     </html>
   )
 }
